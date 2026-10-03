@@ -104,6 +104,9 @@ section p {
   .step-card {
     width: 100%;
   }
+  .genre-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .hero {
   padding: 90px;
