@@ -233,3 +233,8 @@ section p {
   background: #f0f5f1;
   box-shadow: 0 10px 25px rgba(38, 56, 47, 0.15);
 }
+@media (max-width: 1200px) {
+  .genre-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
