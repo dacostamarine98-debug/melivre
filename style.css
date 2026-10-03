@@ -189,3 +189,44 @@ section p {
   font-size: 18px;
   font-weight: bold;
 }
+.genres {
+  text-align: center;
+}
+.genres > p {
+  font-size: 18px;
+  max-width: 650px;
+  margin: 0 auto 40px;
+  color: #52635a;
+}
+.genre-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.genre-card {
+  background: #fbf9f4;
+  padding: 30px 20px;
+  border-radius: 20px;
+  border: 1px solid #e7e1d7;
+  box-shadow: 0 5px 20px rgba(38, 56, 47, 0.08);
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+.genre-card h3 {
+  font-size: 21px;
+  color: #26382f;
+  margin-bottom: 12px;
+}
+.genre-card p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #52635a;
+  margin: 0;
+}
+.genre-card:hover {
+  transform: translateY(-6px);
+  background: #f0f5f1;
+  box-shadow: 0 10px 25px rgba(38, 56, 47, 0.15);
+}
