@@ -161,8 +161,9 @@ section p {
   cursor: default;
 }
 .step-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(38, 56, 47, 0.12);
+  transform: translateY(-8px);
+  background: #f0f5f1;
+  box-shadow: 0 12px 28px rgba(38, 56, 47, 0.18);
 }
 .step-card h3 {
   font-size: 20px;
