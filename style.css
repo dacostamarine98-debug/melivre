@@ -79,7 +79,7 @@ section p {
   margin: 0 auto 25px;
   color: #52665a;
 }
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 34px;
   }
@@ -103,9 +103,6 @@ section p {
   }
   .step-card {
     width: 100%;
-  }
-  .genre-grid {
-    grid-template-columns: 1fr 1fr;
   }
 }
 .hero {
@@ -203,7 +200,7 @@ section p {
 }
 .genre-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
   max-width: 1000px;
   margin: 0 auto;
@@ -232,9 +229,4 @@ section p {
   transform: translateY(-6px);
   background: #f0f5f1;
   box-shadow: 0 10px 25px rgba(38, 56, 47, 0.15);
-}
-@media (max-width: 1200px) {
-  .genre-grid {
-    grid-template-columns: 1fr 1fr !important;
-  }
 }
