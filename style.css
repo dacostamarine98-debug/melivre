@@ -79,7 +79,7 @@ section p {
   margin: 0 auto 25px;
   color: #52665a;
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   h1 {
     font-size: 34px;
   }
