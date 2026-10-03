@@ -98,6 +98,12 @@ section p {
     width: 100%;
     max-width: 280px;
   }
+  .steps {
+    flex-direction: column;
+  }
+  .step-card {
+    width: 100%;
+  }
 }
 .hero {
   padding: 90px;
@@ -144,9 +150,10 @@ section p {
 }
 .step-card {
   flex: 1;
-  background: #ffffff;
-  padding: 30px 25px;
+  background: #fbf9f4;
+  padding: 35px 25px;
   border-radius: 20px;
+  border: 1px solid #e7e1d7;
   box-shadow: 0 5px 20px rgba(38, 56, 47, 0.08);
   text-align: center;
   box-sizing: border-box;
