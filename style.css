@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f3eb;
+  color: #26382f;
+  line-height: 1.6;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+header {
+  background: #26382f;
+  color: white;
+  padding: 25px 20px;
+  text-align: center;
+  position: relative;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.2s;
+}
+nav a:hover {
+  color: #c8d8ce;
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+section {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(38, 56, 47, 0.08);
+  margin-width: 1100px;
+  box-sizing: border-box;
+}
+button {
+  background: #6f8f7a;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.2s;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(38, 56, 47, 0.15);
+}
+button:hover {
+  background: #587563;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(38, 56, 47, 0.2);
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 42px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+section h2 {
+  color: #26382f;
+  font-size: 30px;
+}
+section p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  color: #52665a;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  section {
+    padding: 40px 18px;
+    margin: 20px 12px;
+  }
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+  button {
+    width: 100%;
+    max-width: 280px;
+  }
+}
