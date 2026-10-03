@@ -235,6 +235,6 @@ section p {
 }
 @media (max-width: 1200px) {
   .genre-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr !important;
   }
 }
