@@ -142,3 +142,23 @@ section p {
   font-size: 16px;
   color: #52635a;
 }
+.step-card {
+  flex: 1;
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(38, 56, 47, 0.08);
+  text-align: center;
+  box-sizing: border-box;
+}
+.step-card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #26382f;
+}
+.step-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #52635a;
+  margin: 0;
+}
