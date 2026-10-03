@@ -128,3 +128,17 @@ section p {
   margin-bottom: 20px;
   font-weight: bold;
 }
+.steps {
+  display: flex;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 40px auto 0;
+}
+.steps h3 {
+  font-size: 20px;
+  color: #26382f;
+}
+.steps p {
+  font-size: 16px;
+  color: #52635a;
+}
