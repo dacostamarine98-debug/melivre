@@ -56,8 +56,8 @@ header h1 {
   background: transparent;
 }
 .book-page.left {
-  border-radius: 4px 2px 2px 8px;
-  transform: skewY(5deg);
+  border-radius: 4px 2px 14px 18px;
+  transform: skewY(8deg) rotate(-2deg);
 }
 .book-page.right {
   border-radius: 2px 4px 8px 2px;
