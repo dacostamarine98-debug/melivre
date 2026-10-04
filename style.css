@@ -359,7 +359,7 @@ button:hover {
   background: #fbf7ef;
   border: 1px solid #d8cdbd;
   box-shadow: 0 5px 18px rgba(38, 56, 47, 0.08);
-  text-decoratiin: none;
+  text-decoration: none;
   color: #26382f;
 }
 .romance-page .genre-card:hover {
@@ -369,9 +369,11 @@ button:hover {
 }
 .romance-page .genre-card h3 {
   color: #7a5140;
+  text-decoration: none;
 }
 .romance-page .genre-card p {
   color: #52635a;
+  text-decoration: none;
 }
 .romance-page section h2 {
   color: #26382f;
