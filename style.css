@@ -28,6 +28,48 @@ header h1 {
   margin-bottom: 20px;
 }
 
+/* LOGO LIVRE */
+
+.book-logo {
+  position: relative;
+  width: 90px;
+  height: 55px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2px;
+}
+.book-logo::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 42px;
+  background: #b89a5a;
+  left: 50%;
+  bottom: 4px;
+}
+.book-page {
+  width: 40px;
+  height: 48px;
+  border: 2px solid #b89a5a;
+  box-sizing: border-box;
+  background: transparent;
+}
+.book-page.left {
+  border-radius: 4px 2px 2px 8px;
+  transform: skewY(5deg);
+}
+.book-page.right {
+  border-radius: 2px 4px 8px 2px;
+  transform: skewY(-5deg);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
 /* NAVIGATION */
 
 nav a {
