@@ -334,3 +334,53 @@ button:hover {
     padding: 25px 18px;
   }
 }
+
+/* PAGE ROMANCE */
+
+.romance-page {
+  backgroung: #f3eee4;
+}
+.romance-page .hero {
+  background: #e8eee7;
+  padding: 100px 20px;
+}
+.romance-page .hero-label {
+  color: #a56b52;
+  letter-spacing: 3px;
+}
+.romance-page .hero h2 {
+  color: #26382f;
+  font-size: 48px;
+}
+.romance-page .hero p {
+  color: #52635a;
+}
+.romance-page .genre-card {
+  background: #fbf7ef;
+  border: 1px solid #d8cdbd;
+  box-shadow: 0 5px 18px rgba(38, 56, 47, 0.08);
+  text-decoratiin: none;
+  color: #26382f;
+}
+.romance-page .genre-card:hover {
+  background: #e8eee7;
+  transform: translateY(-7px);
+  box-shadow: 0 12px 25px rgba(38, 56, 47, 0.15);
+}
+.romance-page .genre-card h3 {
+  color: #7a5140;
+}
+.romance-page .genre-card p {
+  color: #52635a;
+}
+.romance-page section h2 {
+  color: #26382f;
+  letter-spacing: 0.5px;
+}
+.romance-page section {
+  background: #fffdf8;
+  border: 1px solid #e5ddd0;
+}
+.romance-page section p {
+  color: #52635a;
+}
