@@ -369,11 +369,9 @@ button:hover {
 }
 .romance-page .genre-card h3 {
   color: #7a5140;
-  text-decoration: none;
 }
 .romance-page .genre-card p {
   color: #52635a;
-  text-decoration: none;
 }
 .romance-page section h2 {
   color: #26382f;
@@ -385,4 +383,8 @@ button:hover {
 }
 .romance-page section p {
   color: #52635a;
+}
+.romance-page a.genre-card {
+  display: block;
+  text-decoration: none;
 }
