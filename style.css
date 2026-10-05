@@ -21,8 +21,8 @@ header {
   margin-bottom: 10px;
 }
 .book-logo img {
-  width: 48px;
-  height: 38px;
+  width: 100px;
+  height: 70px;
   object-fit: contain;
   display: block;
 }
