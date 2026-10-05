@@ -332,3 +332,7 @@ body.menu-open .menu-toggle::after {
   border-radius: 2px;
   transform: rotate(-45deg);
 }
+.menu-toggle:hover {
+  background: transparent;
+  transform: none;
+}
