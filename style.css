@@ -91,7 +91,7 @@ nav a:nth-child(5)::before {
   width: 1px;
   height: 28px;
   background: #c8a85a;
-  transform: transformY(-50%);
+  transform: translateY(-50%);
 }
 nav a:hover {
   color: #c8d8ce;
