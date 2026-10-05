@@ -77,6 +77,17 @@ nav a:nth-child(2)::after {
   margin-left: 7px;
   margin-bottom: 3px;
 }
+nav a:nth-child(5) {
+  display: flex;
+  align-items: center;
+}
+nav a:nth-child(5)::before {
+  content: "";
+  width: 1px;
+  height: 28px;
+  background: #c8a85a;
+  margin-right: 16px;
+}
 nav a:hover {
   color: #c8d8ce;
 }
