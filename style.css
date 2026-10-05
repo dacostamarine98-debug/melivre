@@ -17,6 +17,8 @@ header {
   display: flex;
   align-items: center;
   gap: 18px;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 .book-logo {
   width: 48px;
