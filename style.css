@@ -18,3 +18,117 @@ header {
   align-items: center;
   gap: 18px;
 }
+.book-logo {
+  width: 48px;
+  height: 38px;
+  position: relative;
+}
+.book-page {
+  position: absolute;
+  top: 4px;
+  width: 22px;
+  height: 30px;
+  background: #f8f4ec;
+}
+.book-page.left {
+  left: 2px;
+  border-radius: 4px 0 0 4px;
+}
+.book-page.right {
+  right: 2px;
+  border-radius: 0 4px 4px 0;
+}
+.book-logo::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 23px;
+  width: 2px;
+  height: 30px;
+  background: #26382f;
+  opacity: 0.2;
+}
+.brand-text h1 {
+  font-family: Cormorant Garamond, serif;
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.brand-text p {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  margin: 4px 0 0;
+  color: #c8d8ce;
+  letter-spacing: 0.5px;
+}
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-top: 25px;
+}
+nav a {
+  font-family: Lato, sans-serif;
+  color: #f8f4ec;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+nav a:hover {
+  color: #c8d8ce;
+}
+.header-button {
+  background: #a56b52;
+  color: #f8f4ec;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.search-link {
+  color: #f8f4ec;
+  font-size: 14px;
+  text-decoration: none;
+}
+.header-button:hover {
+  background: #7f4f3d;
+}
+/* CONTENU */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+section {
+  padding: 70px 25px;
+  margin: 30px 0;
+}
+section h2 {
+  font-family: Cormorant Garamond, serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #26382f;
+  margin-bottom: 15px;
+}
+section p {
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #52635f;
+}
+button {
+  font-family: Lato, sans-serif;
+  background: #a56b52;
+  color: #f8f4ec;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background: #7f4f3d;
+  transform: translateY(-2px);
+}
