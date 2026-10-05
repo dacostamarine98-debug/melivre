@@ -74,9 +74,24 @@ nav a:hover {
   white-space: nowrap;
 }
 .search-link {
-  color: #f8f4ec;
-  font-size: 14px;
-  text-decoration: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #c8a85a;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  flex-shrink: 0;
+}
+.search-link::after {
+  content: "";
+  width: 7px;
+  height: 2px;
+  background: #c8a85a;
+  position: absolute;
+  right: -6px;
+  bottom: -3px;
+  transform: rotate(45deg);
 }
 .header-button:hover {
   background: #7f4f3d;
