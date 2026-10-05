@@ -93,6 +93,24 @@ nav a:nth-child(5)::before {
   background: #c8a85a;
   transform: translateY(-50%);
 }
+.library-icon {
+  width: 18px;
+  height: 14px;
+  border: 1px solid #c8a85a;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  margin-right: 8px;
+}
+.library-icon::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 50%;
+  width: 1px;
+  background: #c8a85a;
+}
 nav a:hover {
   color: #c8d8ce;
 }
