@@ -298,3 +298,37 @@ button:hover {
     box-sizing: border-box;
   }
 }
+/* HAUT DU MENU TELEPHONE */
+@media (max-width: 1100px) {
+  body.menu-open .brand {
+    position: fixed;
+    top: 28px;
+    left: 28px;
+    z-index: 1001;
+  }
+  body.menu-open .mobile-actions {
+    position: fixed;
+    top: 32px;
+    right: 28px;
+    z-index: 1001;
+  }
+  body.menu-open .mobile-search {
+    display: none;
+  }
+}
+body.menu-open .menu-toggle::before {
+  top: 10px;
+  box-shadow: none;
+  transform: rotate(45deg);
+}
+body.menu-open .menu-toggle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 28px;
+  height: 2px;
+  background: #c8a85a;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+}
