@@ -244,7 +244,7 @@ button:hover {
   header nav {
     display: none;
   }
-  body.menu-open header-nav {
+  body.menu-open header nav {
     display: flex;
     position: fixed;
     top: 0;
