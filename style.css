@@ -251,3 +251,25 @@ button:hover {
     margin-left: auto;
   }
 }
+/* TELEPHONE PAYSAGE */
+@media (max-height: 500px) and (orientation: landscape) {
+  header {
+    margin: 10px 14px 0;
+    padding: 8px 14px;
+    border-radius: 14px;
+  }
+  .book-logo img {
+    width: 54px;
+    height: 38px;
+  }
+  .brand {
+    gap: 8px;
+  }
+  .brand-text h1 {
+    front-size: 24px;
+  }
+  .brand-text p {
+    font-size: 10px;
+    margin-top: 2px;
+  }
+}
