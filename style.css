@@ -291,3 +291,10 @@ button:hover {
     margin-top: 2px;
   }
 }
+/* MENU OUVERT TELEPHONE */
+@media (max-width: 600px) {
+  body.menu-open header nav {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
