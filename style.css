@@ -66,7 +66,7 @@ nav a.active {
   border-bottom: 1px solid #c8a85a;
   padding-bottom: 4px
 }
-nav a:nth-child(2)::after {
+nav a:nth-of-type(2)::after {
   content: "";
   display: inline-block;
   width: 6px;
@@ -77,13 +77,13 @@ nav a:nth-child(2)::after {
   margin-left: 7px;
   margin-bottom: 3px;
 }
-nav a:nth-child(5) {
+nav a:nth-of-type(5) {
   display: flex;
   align-items: center;
   position: relative;
   padding-left: 18px;
 }
-nav a:nth-child(5)::before {
+nav a:nth-of-type(5)::before {
   content: "";
   position: absolute;
   left: 0;
