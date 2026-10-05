@@ -20,35 +20,11 @@ header {
   justify-content: center;
   margin-bottom: 10px;
 }
-.book-logo {
+.book-logo img {
   width: 48px;
   height: 38px;
-  position: relative;
-}
-.book-page {
-  position: absolute;
-  top: 4px;
-  width: 22px;
-  height: 30px;
-  background: #f8f4ec;
-}
-.book-page.left {
-  left: 2px;
-  border-radius: 4px 0 0 4px;
-}
-.book-page.right {
-  right: 2px;
-  border-radius: 0 4px 4px 0;
-}
-.book-logo::after {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 23px;
-  width: 2px;
-  height: 30px;
-  background: #26382f;
-  opacity: 0.2;
+  object-fit: contain;
+  display: block;
 }
 .brand-text h1 {
   font-family: Cormorant Garamond, serif;
