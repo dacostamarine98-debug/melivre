@@ -22,13 +22,13 @@ header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 18px;
-  justify-content: center;
-  margin-bottom: 10px;
+  gap: 14px;
+  justify-content: flex-start;
+  margin-bottom: 0;
 }
 .book-logo img {
-  width: 150px;
-  height: 105px;
+  width: 105px;
+  height: 74px;
   object-fit: contain;
   display: block;
 }
