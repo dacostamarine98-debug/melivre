@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Cormorant+Garamond:wght@400;500;600&family=Lato:wght@400;700&display=swap');
 body {
   margin: 0;
-  background: #f4efe6;
+  background: url("melivre-fond-accueil.jpg") center center / cover fixed;
   color: #26382f;
   font-family: Lato, sans-serif;
 }
@@ -10,7 +10,13 @@ body {
 header {
   background: #26382f;
   color: #f8f4ec;
-  padding: 30px 50px;
+  margin: 28px 25px 0;
+  padding: 18px 28px;
+  border: 1px solid #c8a85a;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* 3.LOGO */
 .brand {
