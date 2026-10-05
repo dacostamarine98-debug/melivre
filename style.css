@@ -22,26 +22,26 @@ header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
   justify-content: flex-start;
   margin-bottom: 0;
 }
 .book-logo img {
-  width: 82px;
-  height: 58px;
+  width: 72px;
+  height: 50px;
   object-fit: contain;
   display: block;
 }
 .brand-text h1 {
   font-family: Cormorant Garamond, serif;
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 500;
   letter-spacing: 1px;
   margin: 0;
 }
 .brand-text p {
   font-family: Parisienne, cursive;
-  font-size: 15px;
+  font-size: 12px;
   margin: 4px 0 0;
   color: #c8d8ce;
   letter-spacing: 0.5px;
