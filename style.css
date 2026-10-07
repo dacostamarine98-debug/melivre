@@ -186,6 +186,18 @@ nav a:hover {
 .explore-submenu a {
   font-size: 13px;
   color: #f8f4ec;
+  position: relative;
+}
+.explore-submenu a::before {
+  content: "";
+  position: absolute;
+  left: -22px;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  background: #c8a85a;
+  border-radius: 50%;
+  transform: translateY(-50%);
 }
 /* RESPONSIVE HEADER */
 .mobile-actions {
