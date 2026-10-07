@@ -197,7 +197,7 @@ nav a:hover {
   height: 5px;
   background: #c8a85a;
   border-radius: 50%;
-  transform: translateY(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 /* RESPONSIVE HEADER */
 .mobile-actions {
