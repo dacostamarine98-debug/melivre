@@ -191,13 +191,13 @@ nav a:hover {
 .explore-submenu a::before {
   content: "";
   position: absolute;
-  left: -18px;
+  left: -14px;
   top: 50%;
   width: 5px;
   height: 5px;
   background: #c8a85a;
   border-radius: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%, -50%);
 }
 /* RESPONSIVE HEADER */
 .mobile-actions {
