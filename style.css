@@ -296,8 +296,8 @@ button:hover {
     margin-left: auto;
   }
   body.menu-open .home-icon {
-    width: 14px;
-    height: 11px;
+    width: 16px;
+    height: 12px;
     display: inline-block;
     position: relative;
     margin-right: 12px;
@@ -308,13 +308,24 @@ button:hover {
   body.menu-open .home-icon::before {
     content: "";
     position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 1px;
+    width: 11px;
+    height: 11px;
+    left: 2px;
     top: -6px;
     border-left: 1px solid #c8a85a;
     border-top: 1px solid #c8a85a;
     transform: rotate(45deg);
+  }
+  body.menu-open .home-icon::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 7px;
+    left: 5px;
+    bottom: 0;
+    border-left: 1px solid #c8a85a;
+    border-right: 1px solid #c8a85a;
+    border-top: 1px solid #c8a85a;
   }
 }
 /* TELEPHONE PAYSAGE */
