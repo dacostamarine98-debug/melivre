@@ -177,14 +177,14 @@ nav a:hover {
   margin-left: 12px;
   padding-left: 18px;
   border-left: 1px solid #c8a85a;
-  gap: 12px;
+  gap: 9px;
 }
 .explore-submenu.open {
   display: flex;
   flex-direction: column;
 }
 .explore-submenu a {
-  font-size: 14px;
+  font-size: 13px;
   color: #f8f4ec;
 }
 /* RESPONSIVE HEADER */
