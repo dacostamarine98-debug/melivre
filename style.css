@@ -175,6 +175,10 @@ nav a:hover {
 .explore-submenu {
   display: none;
 }
+.explore-submenu.open {
+  display: flex;
+  flex-direction: column;
+}
 /* RESPONSIVE HEADER */
 .mobile-actions {
   display: none;
