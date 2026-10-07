@@ -191,7 +191,7 @@ nav a:hover {
 .explore-submenu a::before {
   content: "";
   position: absolute;
-  left: -14px;
+  left: -14.5px;
   top: 50%;
   width: 5px;
   height: 5px;
