@@ -295,6 +295,27 @@ button:hover {
     gap: 18px;
     margin-left: auto;
   }
+  body.menu-open .home-icon {
+    width: 14px;
+    height: 11px;
+    display: inline-block;
+    position: relative;
+    margin-right: 12px;
+    border-left: 1px solid #c8a85a;
+    border-right: 1px solid #c8a85a;
+    border-bottom: 1px solid #c8a85a;
+  }
+  body.menu-open .home-icon::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 1px;
+    top: -6px;
+    border-left: 1px solid #c8a85a;
+    border-top: 1px solid #c8a85a;
+    transform: rotate(45deg);
+  }
 }
 /* TELEPHONE PAYSAGE */
 @media (max-height: 500px) and (orientation: landscape) {
