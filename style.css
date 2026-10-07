@@ -172,6 +172,9 @@ nav a:hover {
 .header-button:hover {
   background: #7f4f3d;
 }
+.explore-submenu {
+  display: none;
+}
 /* RESPONSIVE HEADER */
 .mobile-actions {
   display: none;
