@@ -184,7 +184,7 @@ nav a:hover {
   flex-direction: column;
 }
 .explore-submenu a {
-  font-size: 13px;
+  font-size: 14px;
   color: #f8f4ec;
   position: relative;
 }
@@ -326,6 +326,9 @@ button:hover {
     border-left: 1px solid #c8a85a;
     border-right: 1px solid #c8a85a;
     border-top: 1px solid #c8a85a;
+  }
+  body.menu-open header nav > a {
+    font-size: 18px;
   }
 }
 /* TELEPHONE PAYSAGE */
